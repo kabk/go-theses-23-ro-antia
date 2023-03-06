@@ -309,7 +309,7 @@ ol li:before {
 div.sticky {
   white-space: nowrap;
   overflow: scroll;
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
   -ms-overflow-style: none;
   /* IE and Edge */
   scrollbar-width: none;
