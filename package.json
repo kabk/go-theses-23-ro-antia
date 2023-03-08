@@ -1,0 +1,8 @@
+{
+  "name": "ro's thesis",
+  "version": "0.1",
+  "license": "none",
+  "stackblitz": {
+    "startCommand": "npm start"
+  }
+}
