@@ -45,7 +45,6 @@ body {
   width: 100%;
   height: auto;
   overflow-y: auto;
-  overflow-x: hidden;
 }
 
 a {
@@ -116,9 +115,11 @@ hr {
 
 div.page-wrapper {
   /* the element that 'wraps' everything */
-  padding: var(--margin);
+  padding-left: var(--margin);
 }
-
+div.rightmarg {
+  padding-right: var(--margin);
+}
 /* navigation */
 
 nav {}
