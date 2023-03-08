@@ -116,6 +116,7 @@ hr {
 div.page-wrapper {
   /* the element that 'wraps' everything */
   padding-left: var(--margin);
+  overflow-x: hidden;
 }
 div.rightmarg {
   padding-right: var(--margin);
