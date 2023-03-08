@@ -75,10 +75,12 @@ h3 {
   /* h3 style */
 }
 
-h4,
-h5,
-h6 {
-  /* h4-h5-h6 style */
+h4 {
+  font-weight: 800;
+}
+
+h5 {
+  font-size: smaller;
 }
 
 p {
@@ -173,53 +175,59 @@ summary {}
 
 .sticks1 {
   color: black;
-  top: -1px;                      
+  top: -1px;
 }
+
 .sticks2 {
   color: black;
-  top: -1px;                      
+  top: -1px;
 }
+
 .sticks3 {
   color: black;
-  top: -1px;                      
+  top: -1px;
 }
+
 .sticks4 {
   color: black;
-  top: -1px;                      
+  top: -1px;
 }
+
 .sticks5 {
   color: black;
-  top: -1px;                      
+  top: -1px;
 }
+
 .stuck1 {
-  font-weight: 300;
+  font-weight: 800;
   padding-top: 1px;
   z-index: 100;
-} 
+}
 
 .stuck2 {
-  font-weight: 300;
+  font-weight: 800;
   padding-top: 1.1rem;
   z-index: 99;
-} 
+}
 
 .stuck3 {
-  font-weight: 300;
+  font-weight: 800;
   padding-top: 2.2rem;
   z-index: 98;
-} 
+}
 
 .stuck4 {
-  font-weight: 300;
+  font-weight: 800;
   padding-top: 3.3rem;
   z-index: 97;
-} 
+}
 
 .stuck5 {
-  font-weight: 300;
+  font-weight: 800;
   padding-top: 4.4rem;
   z-index: 96;
-} 
+}
+
 ol {
   list-style: none;
   counter-reset: test;
@@ -227,7 +235,7 @@ ol {
   padding: 0;
   white-space: nowrap;
   list-style-position: inside;
-  
+
 }
 
 li {
@@ -239,19 +247,22 @@ ol li {
   counter-increment: test;
 }
 
-ol li:before {
+ol li div:before {
   content: counters(test, ".") ".\00A0";
   font-family: "Courier", monospace;
   font-weight: 100;
   float: left;
   margin-top: 0.15rem;
+  z-index: 1;
+  clear: left;
+  line-height: 0.95rem;
 }
 
 .level1 {
   top: 0;
   z-index: 100;
   padding: 0;
-  padding-top: calc(0em + 1px); 
+  padding-top: calc(0em + 1px);
 }
 
 .level2 {
@@ -322,10 +333,12 @@ div::-webkit-scrollbar {
   display: none;
 }
 
-ul.nav, ol {
+ul.nav,
+ol {
   padding: 0;
 
 }
+
 ul li {
   display: block;
 
@@ -338,6 +351,7 @@ ul.glossary {
 li.gword {
   font-weight: 400;
 }
+
 .gword ul li {
   font-weight: 300;
 }
@@ -346,12 +360,18 @@ p.mla {
   /* padding-top: .2rem; */
   margin-bottom: 0;
 }
+
 p.refnote {
   font-weight: 300;
   margin-top: 0;
 }
-.indentL {
+
+/* .indentL {
   padding-left: .2rem;
+} */
+
+strong {
+  font-weight: 650;
 }
 
 /* ol {
