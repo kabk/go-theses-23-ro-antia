@@ -3,6 +3,5 @@
   "version": "0.1",
   "license": "none",
   "stackblitz": {
-    "startCommand": "npm start"
   }
 }
