@@ -27,6 +27,7 @@
   --font-weight: 400;
   /* Margins settings */
   --margin: 1rem;
+  --primary-gradient: linear-gradient(rgba(148, 227, 255, 0.724), rgba(138, 138, 235, 0.524));
 }
 
 
@@ -37,11 +38,12 @@ html {
   font: var(--font-size) var(--font-family);
   color: var(--color-text);
   background-color: var(--color-background);
+  /* background-image: linear-gradient(rgba(148, 227, 255, 0.724), rgba(138, 138, 235, 0.524)); */
 }
 
 body {
   position: relative;
-  background-color: var(--color-background);
+  /* background-color: var(--color-background); */
   font: var(--font-size) var(--font-family);
   color: var(--color-text);
   /* width: 100%; */
@@ -148,7 +150,7 @@ div.rightmarg {
   position: -webkit-sticky;
   position: sticky;
   /* top: 0; */
-  background-color: var(--color-background);
+  background: var(--color-background);
   background-clip: content-box;
 
   margin-left: 0;
@@ -545,13 +547,13 @@ ol li:before {
 
   /* utilities */
 
-  .desktop {
+  /* .desktop {
     display: none !important;
   }
 
   .mobile {
     display: block;
-  }
+  } */
 
 }
 
