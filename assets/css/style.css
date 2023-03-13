@@ -322,7 +322,10 @@ ol li div:before {
   z-index: 90;
 }
 
-
+.levelA {
+  top: 0;
+  z-index: 100;
+}
 
 div.sticky {
   white-space: nowrap;
