@@ -39,8 +39,6 @@ html {
   color: var(--color-text);
   background-color: var(--color-background);
   /* background-image: linear-gradient(rgba(148, 227, 255, 0.724), rgba(138, 138, 235, 0.524)); */
-
-  overflow-x: hidden;
 }
 
 body {
@@ -242,12 +240,9 @@ li {
 ol li {
   counter-increment: test;
   line-height: 1.3rem;
-}
-
-ol li div {
   margin-top: 0.7rem;
-
 }
+
 
 ol li div:before {
   content: counters(test, ".") ".\00A0";
@@ -316,18 +311,21 @@ ol li div:before {
 
 .level10 {
   top: 9.9rem;
-  z-index: 91;
+  z-index: 80;
 }
 
 .level11 {
   top: 11rem;
-  z-index: 90;
+  z-index: 78;
 }
 
 .levelA {
   top: 0;
-  z-index: 100;
+  z-index: 89;
+  margin-top: 3rem;
+  /* height: 2rem; */
 }
+
 
 div.sticky {
   white-space: nowrap;
