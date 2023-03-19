@@ -239,8 +239,8 @@ li {
 
 ol li {
   counter-increment: test;
-  line-height: 1.3rem;
-  margin-top: 0.7rem;
+  line-height: 1.4rem;
+  padding-top: 0.8rem;
 }
 
 
@@ -318,6 +318,79 @@ ol li div:before {
   top: 11rem;
   z-index: 78;
 }
+
+.level12 {
+  top: 12.1rem;
+  z-index: 77;
+}
+
+.level13 {
+  top: 13.2rem;
+  z-index: 76;
+}
+
+.level14 {
+  top: 14.3rem;
+  z-index: 74;
+}
+
+.level15 {
+  top: 15.4rem;
+  z-index: 73;
+}
+
+.level16 {
+  top: 16.5rem;
+  z-index: 72;
+}
+
+.level17 {
+  top: 17.6rem;
+  z-index: 71;
+}
+
+.level18 {
+  top: 18.7rem;
+  z-index: 69;
+}
+
+.level19 {
+  top: 19.8rem;
+  z-index: 68;
+}
+
+.level20 {
+  top: 20.9rem;
+  z-index: 67;
+}
+
+.level21 {
+  top: 22rem;
+  z-index: 66;
+}
+
+.level22 {
+  top: 23.1rem;
+  z-index: 65;
+}
+
+.level23 {
+  top: 24.2rem;
+  z-index: 64;
+}
+
+.level24 {
+  top: 25.3rem;
+  z-index: 63;
+}
+
+.level25 {
+  top: 26.4rem;
+  z-index: 62;
+}
+
+
+
 
 .levelA {
   top: 0;
@@ -534,7 +607,12 @@ ol li:before {
   }
 }
 
+@media (min-height: 30rem){
+  :root {
+    --font-size(calc(100vh/30));
+  }
 
+}
 
 /* website media queries */
 
