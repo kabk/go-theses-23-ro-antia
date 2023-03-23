@@ -40,8 +40,8 @@ html {
   background-color: var(--color-background);
   /* background-image: linear-gradient(rgba(148, 227, 255, 0.724), rgba(138, 138, 235, 0.524)); */
   overflow-y: visible;
-  /* overflow-x: hidden; */
-
+  overflow-x: hidden;
+  width: 100vw;
 }
 head {
   overflow-x: hidden;
@@ -53,8 +53,8 @@ body {
   color: var(--color-text);
   /* width: 100%; */
   height: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
+  /* overflow-y: auto; */
+  /* overflow-x: hidden; */
 
 }
 
