@@ -43,17 +43,15 @@ html {
   overflow-y: visible;
   overflow-x: hidden;
 }
-head {
-  overflow-x: hidden;
-}
+
 body {
   position: relative;
   /* background-color: var(--color-background); */
   font: var(--font-size) var(--font-family);
   color: var(--color-text);
-  /* width: 100%; */
+  max-width: 100vw;
   height: auto;
-  /* overflow-y: auto; */
+  /* overflow-y: visible;  */
   /* overflow-x: hidden; */
 
 }
