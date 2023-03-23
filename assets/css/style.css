@@ -43,7 +43,9 @@ html {
   /* overflow-x: hidden; */
 
 }
-
+head {
+  overflow-x: hidden;
+}
 body {
   position: relative;
   /* background-color: var(--color-background); */
